@@ -390,6 +390,7 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/LobbyManager.cs"
 "Assets/Scripts/PlayfabManager.cs"
+"Assets/Scripts/RoomManager.cs"
 -langversion:9.0
 
 /deterministic
