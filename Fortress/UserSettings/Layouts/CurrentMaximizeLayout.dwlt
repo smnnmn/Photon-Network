@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 2169
+  controlID: 4575
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,7 +91,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2170
+  controlID: 4576
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2124
+  controlID: 4530
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -528,7 +528,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 9
+      index: 8
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1790, y: 501, z: 0}
+    m_Target: {x: 0, y: 0.23500013, z: 0.125}
     speed: 2
-    m_Value: {x: 1790, y: 501, z: 0}
+    m_Value: {x: 0, y: 0.23500013, z: 0.125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -643,13 +643,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0467876, y: -0.014387789, z: 0.00067425176, w: -0.99880797}
+    m_Target: {x: 0.39860597, y: -0.07112032, z: 0.031071354, w: 0.91385025}
     speed: 2
-    m_Value: {x: -0.0467876, y: -0.014387789, z: 0.00067425176, w: -0.99880797}
+    m_Value: {x: 0.3985995, y: -0.07111917, z: 0.03107085, w: 0.9138354}
   m_Size:
-    m_Target: 765.06757
+    m_Target: 0.98329157
     speed: 2
-    m_Value: 765.06757
+    m_Value: 0.98329157
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2171
+  controlID: 4577
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -814,8 +814,8 @@ MonoBehaviour:
     y: 0
     width: 570
     height: 442
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -859,9 +859,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c25f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 66cfffffd2d7ffff44d8ffff9cd8ffff8edbfffff0dbffff26fbffff585d0000ca5d0000d45d0000de5d0000dc630000fe6300000e640000206400004e6400005864000062640000
+      m_ExpandedIDs: 7ea3ffffe4b3ffff8cc1ffffeac1ffff30c3ffff96c3ffffdacfffffd4f9ffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1005,9 +1005,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 425e0000
-    m_LastClickedID: 24130
-    m_ExpandedIDs: 00000000285e000000ca9a3b
+    m_SelectedIDs: 4a5e0000
+    m_LastClickedID: 24138
+    m_ExpandedIDs: 000000002c5e0000405e00005460000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1035,7 +1035,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000285e000000ca9a3b
+    m_ExpandedIDs: 000000002c5e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1060,8 +1060,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c25f0000
-    m_LastClickedInstanceID: 24514
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a46e0000286e0000bc6e000090670000aa6e0000b06e0000b66e0000a664000032610000d059000014750000e65d000000000000
     m_RenameOverlay:
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2219
+  controlID: 4625
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
