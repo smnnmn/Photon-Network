@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 6576
+  controlID: 10490
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 6577
+  controlID: 10491
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6483
+  controlID: 10458
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6508
+  controlID: 10492
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6578
+  controlID: 10568
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -871,9 +871,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.23500013, z: 0.125}
+    m_Target: {x: 4.3989263, y: 4.955546, z: 1.7036924}
     speed: 2
-    m_Value: {x: 0, y: 0.23500013, z: 0.125}
+    m_Value: {x: 4.3989263, y: 4.955546, z: 1.7036924}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -919,13 +919,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.39860597, y: -0.07112032, z: 0.031071354, w: 0.91385025}
+    m_Target: {x: 0.049788795, y: 0.0003124763, z: 0.0000025261127, w: 0.99877834}
     speed: 2
-    m_Value: {x: -0.39860597, y: 0.07112032, z: -0.031071354, w: -0.91385025}
+    m_Value: {x: -0.049788795, y: -0.00031247633, z: -0.0000025261127, w: -0.9987784}
   m_Size:
-    m_Target: 0.98329157
+    m_Target: 22.16365
     speed: 2
-    m_Value: 0.98329157
+    m_Value: 22.16365
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1059,7 +1059,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7aa0ffff7ea3ffffe4b3ffff8cc1ffffeac1ffff30c3ffff96c3ffffdacfffffd4f9ffff1afbffff
+      m_ExpandedIDs: 509effff34a3ffffaea3ffff30b4ffff78b9fffffcbaffff52f7ffffcef9ffff26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1162,7 +1162,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Resources
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1170,16 +1170,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Resources
   m_LastFoldersGridSize: 56
   m_LastProjectPath: C:\Users\test1\Desktop\Photon-Network\Fortress
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a5e0000
-    m_LastClickedID: 24138
-    m_ExpandedIDs: 000000002c5e000000ca9a3b
+    m_SelectedIDs: ac5d0000
+    m_LastClickedID: 23980
+    m_ExpandedIDs: 000000008e5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1207,7 +1207,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c5e000000ca9a3b
+    m_ExpandedIDs: 000000008e5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1234,8 +1234,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a46e0000286e0000bc6e000090670000aa6e0000b06e0000b66e0000a664000032610000d059000014750000e65d000000000000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000a46e0000286e0000bc6e000090670000aa6e0000b06e0000b66e0000a664000032610000d059000014750000e65d0000000000009c680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
