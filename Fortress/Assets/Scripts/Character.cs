@@ -4,17 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Move))]
-
+[RequireComponent(typeof(Rotation))]
 public class Character : MonoBehaviourPun
 {
     [SerializeField] Move move;
     [SerializeField] Rigidbody rigidBody;
+    [SerializeField] Rotation rotation;
     [SerializeField] GameObject remoteCamera;
     // Start is called before the first frame update
 
     private void Awake()
     {
         move = GetComponent<Move>();
+        rotation = GetComponent<Rotation>();
         rigidBody = GetComponent<Rigidbody>();
 
     }
@@ -24,11 +26,18 @@ public class Character : MonoBehaviourPun
     }
     private void Update()
     {
+        if (photonView.IsMine == false) return;
+
         move.OnKeyUpdate();
+        rotation.OnMouseUpdate();
+        
     }
     private void FixedUpdate()
     {
+        if (photonView.IsMine == false) return;
+
         move.OnMove(rigidBody);
+        rotation.RotateY(rigidBody);
     }
     public void DisableCamera()
     {
