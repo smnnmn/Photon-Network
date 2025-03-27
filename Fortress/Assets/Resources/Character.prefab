@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 4507097022475950948}
   - component: {fileID: 721711916634263527}
   - component: {fileID: 5229148743573365790}
-  - component: {fileID: 2036832320296256561}
+  - component: {fileID: 3854816548182807450}
   m_Layer: 5
   m_Name: Nick Name Text
   m_TagString: Untagged
@@ -152,7 +152,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &2036832320296256561
+--- !u!114 &3854816548182807450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,10 +161,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 376580741480202871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2e4a14b821631458f5eeac961f88ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 239958a9a909d37418266f947c1541b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputField: {fileID: 0}
+  nickNameText: {fileID: 0}
 --- !u!1 &809852272953700164
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +498,7 @@ MonoBehaviour:
   rigidBody: {fileID: 0}
   rotation: {fileID: 0}
   remoteCamera: {fileID: 1499281736787332620}
+  pausePanel: {fileID: 0}
 --- !u!114 &8104653644826566008
 MonoBehaviour:
   m_ObjectHideFlags: 0

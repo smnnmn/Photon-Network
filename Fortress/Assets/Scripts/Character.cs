@@ -11,6 +11,8 @@ public class Character : MonoBehaviourPun
     [SerializeField] Rigidbody rigidBody;
     [SerializeField] Rotation rotation;
     [SerializeField] GameObject remoteCamera;
+
+    [SerializeField] Pause pausePanel;
     // Start is called before the first frame update
 
     private void Awake()
@@ -19,6 +21,7 @@ public class Character : MonoBehaviourPun
         rotation = GetComponent<Rotation>();
         rigidBody = GetComponent<Rigidbody>();
 
+        pausePanel = FindObjectOfType<Pause>(true);
     }
     void Start()
     {
@@ -27,6 +30,13 @@ public class Character : MonoBehaviourPun
     private void Update()
     {
         if (photonView.IsMine == false) return;
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            MouseManager.Instance.SetMouse(true);
+
+            pausePanel.gameObject.SetActive(true);
+        }
 
         move.OnKeyUpdate();
         rotation.OnMouseUpdate();

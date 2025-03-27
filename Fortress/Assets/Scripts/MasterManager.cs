@@ -20,8 +20,10 @@ public class MasterManager : MonoBehaviourPunCallbacks
     {
         while(true)
         {
-            PhotonNetwork.InstantiateRoomObject("Energy",Vector3.zero, Quaternion.identity);
-            
+            if (PhotonNetwork.CurrentRoom != null)
+            {
+                PhotonNetwork.InstantiateRoomObject("Energy", Vector3.zero, Quaternion.identity);
+            }
             yield return waitForSeconds;
         }
     }
