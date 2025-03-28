@@ -11,8 +11,14 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public void Connect()
     {
-        // 서버에 접속하는 함수
-        PhotonNetwork.ConnectUsingSettings();
+        if(PhotonNetwork.IsConnected == false)
+        {
+            PhotonNetwork.ConnectUsingSettings();
+        }
+        else
+        {
+            Debug.Log("Already connected to Photon. Current state: " + PhotonNetwork.NetworkClientState);
+        }
     }
 
     public override void OnConnectedToMaster()
@@ -28,10 +34,20 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             );
     
     }
+    
     public override void OnJoinedLobby()
     {
-        PhotonNetwork.IsMessageQueueRunning = true;
+        StartCoroutine(LoadRoom());
+    }
+    private IEnumerator LoadRoom()
+    {
+        // 연결이 될때까지 대기합니다. 
+        while(!PhotonNetwork.IsConnectedAndReady)
+        {
+            yield return null;
+        }
 
+        // 연결이 준비되었으면 씬 로드
         PhotonNetwork.LoadLevel("Room");
     }
 }

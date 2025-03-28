@@ -39,7 +39,7 @@ public class Character : MonoBehaviourPun
         }
 
         move.OnKeyUpdate();
-        rotation.OnMouseUpdate();
+        rotation.OnMouseX();
         
     }
     private void FixedUpdate()

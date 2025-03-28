@@ -259,6 +259,8 @@ GameObject:
   - component: {fileID: 6817549942160555251}
   - component: {fileID: 5548097717046163975}
   - component: {fileID: 4285596541201358241}
+  - component: {fileID: 4569817277543377032}
+  - component: {fileID: 7875583488066658248}
   m_Layer: 6
   m_Name: Remote Camera
   m_TagString: Untagged
@@ -340,6 +342,35 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499281736787332620}
   m_Enabled: 1
+--- !u!114 &4569817277543377032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499281736787332620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6549dbe86846734d86d5d833f83fbae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 200
+  mouseX: 0
+  mouseY: 0
+  rotation: {x: 0, y: 0, z: 0}
+--- !u!114 &7875583488066658248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499281736787332620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0303ad0ea0952c94b8e165039da02c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {fileID: 0}
 --- !u!1 &1701637826986888992
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 200
   mouseX: 0
+  mouseY: 0
   rotation: {x: 0, y: 0, z: 0}
 --- !u!1 &3064712034157433578
 GameObject:

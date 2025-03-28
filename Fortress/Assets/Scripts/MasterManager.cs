@@ -7,6 +7,8 @@ using UnityEngine;
 public class MasterManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] WaitForSeconds waitForSeconds = new WaitForSeconds(5f);
+    [SerializeField] Vector3[] energyPosition;
+    [SerializeField] bool[] energyCheck;
 
     void Start()
     {
@@ -22,7 +24,11 @@ public class MasterManager : MonoBehaviourPunCallbacks
         {
             if (PhotonNetwork.CurrentRoom != null)
             {
-                PhotonNetwork.InstantiateRoomObject("Energy", Vector3.zero, Quaternion.identity);
+                int index = Random.Range(0, energyPosition.Length);
+                PhotonNetwork.InstantiateRoomObject("Energy",
+                   energyPosition[index],
+                    Quaternion.identity);
+                energyCheck[index] = true;
             }
             yield return waitForSeconds;
         }
