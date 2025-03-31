@@ -10,6 +10,7 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] InputField emailInputField;
     [SerializeField] InputField passwordInputField;
+    [SerializeField] GameObject failurePanel;
 
     public void Login()
     {
@@ -41,7 +42,11 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
 
     public void Fail(PlayFabError playFabError)
     {
-        Debug.Log(playFabError.ToString());
+        failurePanel.SetActive(true);
+    }
+    public void FaillClose()
+    {
+        failurePanel.SetActive(false);
     }
 
 }

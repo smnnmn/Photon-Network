@@ -6,7 +6,6 @@ using Photon.Realtime;
 
 public class CreateManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] Transform[] transforms;
     private void Awake()
     {
         Create();
@@ -15,11 +14,11 @@ public class CreateManager : MonoBehaviourPunCallbacks
     public void Create()
     {
         PhotonNetwork.Instantiate
-            (
-                "Character",
-                transforms[Random.Range(0, transforms.Length)].position,
-                Quaternion.identity
-            );
+        (
+            "Character",
+            Vector3.zero,
+            Quaternion.identity
+        );
     }
 
 

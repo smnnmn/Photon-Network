@@ -61,4 +61,13 @@ public class Character : MonoBehaviourPun
             remoteCamera.SetActive(false);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        PhotonView clone = other.GetComponent<PhotonView>();
+ 
+        if(clone.IsMine)
+        {
+            PhotonNetwork.Destroy(clone.gameObject);
+        }
+    }
 }
