@@ -44,9 +44,4 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
     {
         failurePanel.SetActive(true);
     }
-    public void FaillClose()
-    {
-        failurePanel.SetActive(false);
-    }
-
 }

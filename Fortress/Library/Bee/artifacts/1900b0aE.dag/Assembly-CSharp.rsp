@@ -392,6 +392,7 @@
 "Assets/Scripts/CreateManager.cs"
 "Assets/Scripts/DialogManager.cs"
 "Assets/Scripts/Energy.cs"
+"Assets/Scripts/Failure.cs"
 "Assets/Scripts/Head.cs"
 "Assets/Scripts/Information.cs"
 "Assets/Scripts/LobbyManager.cs"
@@ -401,10 +402,12 @@
 "Assets/Scripts/Name.cs"
 "Assets/Scripts/NickName.cs"
 "Assets/Scripts/NickNameManager.cs"
+"Assets/Scripts/Panallux.cs"
 "Assets/Scripts/Pause.cs"
 "Assets/Scripts/PlayfabManager.cs"
 "Assets/Scripts/RoomManager.cs"
 "Assets/Scripts/Rotation.cs"
+"Assets/Scripts/Watch.cs"
 -langversion:9.0
 
 /deterministic
