@@ -43,7 +43,7 @@ public class MasterManager : MonoBehaviourPunCallbacks
     }
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        if(PhotonNetwork.CurrentRoom.PlayerCount >= 2)
+        if(PhotonNetwork.CurrentRoom.PlayerCount >= 3)
         {
             Debug.Log("Game Start");
             PhotonNetwork.CurrentRoom.IsOpen = false;
